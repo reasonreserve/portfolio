@@ -1,4 +1,6 @@
-# Jekyll site for GitHub Pages (build from /docs on main).
+# Jekyll site for GitHub Pages.
+# - Classic Pages: Settings → Build from /docs on main (same `_config.yml`).
+# - GitHub Actions: `.github/workflows/jekyll-gh-pages.yml` builds `./docs` → `docs/_site`.
 # Local preview: cd docs && bundle install && bundle exec jekyll serve
 # https://docs.github.com/pages/getting-started-with-github-pages/github-pages#jekyll
 
@@ -7,6 +9,12 @@ description: Public programme portfolio — strategy, roadmap, and technical ori
 theme: minima
 baseurl: "/portfolio"
 url: "https://reasonreserve.github.io"
+
+# Repo metadata (SEO, feed, “edit on GitHub” when supported by the theme)
+repository: reasonreserve/portfolio
+
+timezone: Europe/Tallinn
+lang: en
 
 plugins:
   - jekyll-feed
