@@ -58,7 +58,7 @@ Each programme epic **[#1](https://github.com/reasonreserve/portfolio/issues/1)�
 
 ## Exec demo checklist
 
-1. Open **[Portfolio project](https://github.com/orgs/reasonreserve/projects/1)** — confirm **Start / Target** and status columns for `#1`–`#7`.
+1. Open **[Portfolio project](https://github.com/orgs/reasonreserve/projects/1)** — confirm **Start / Target** and status columns for `#1`–`#7` and work packages **`#8`–`#28`** ([import guide](org-project-import.md)).
 2. Open **[Milestones](https://github.com/reasonreserve/portfolio/milestones)** — three phase milestones with due dates; **#1–#3** assigned to **M1–M6**, **M7–M16**, **M17–M24** respectively.
 3. Filter issues by milestone or `phase` / `outcome` label for a **phase-only** or **outcome-only** view.
 4. Site (when Pages is on): `https://reasonreserve.github.io/portfolio/` for public narrative; issues remain the operational record.
