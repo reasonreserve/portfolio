@@ -42,6 +42,20 @@ This document aligns **GitHub issues** in [`reasonreserve/portfolio`](https://gi
 
 Each epic includes an **Executive snapshot (RIA)** table at the top: work item type, suggested milestone, org project link, and a **one-line** exec summary. Below that, scope and links stay as the working specification.
 
+## Work packages (sub-issues)
+
+Each programme epic **[#1](https://github.com/reasonreserve/portfolio/issues/1)–[#7](https://github.com/reasonreserve/portfolio/issues/7)** has **three sub-issues** ([#8](https://github.com/reasonreserve/portfolio/issues/8)–[#28](https://github.com/reasonreserve/portfolio/issues/28)) for concrete delivery tracks. **Parent issues** roll up status for exec views; **sub-issues** are where owners, dates, and closure happen.
+
+| Parent | Sub-issues |
+|--------|------------|
+| [#1 Phase I](https://github.com/reasonreserve/portfolio/issues/1) | [#8](https://github.com/reasonreserve/portfolio/issues/8) [#9](https://github.com/reasonreserve/portfolio/issues/9) [#10](https://github.com/reasonreserve/portfolio/issues/10) |
+| [#2 Phase II](https://github.com/reasonreserve/portfolio/issues/2) | [#11](https://github.com/reasonreserve/portfolio/issues/11) [#12](https://github.com/reasonreserve/portfolio/issues/12) [#13](https://github.com/reasonreserve/portfolio/issues/13) |
+| [#3 Phase III](https://github.com/reasonreserve/portfolio/issues/3) | [#14](https://github.com/reasonreserve/portfolio/issues/14) [#15](https://github.com/reasonreserve/portfolio/issues/15) [#16](https://github.com/reasonreserve/portfolio/issues/16) |
+| [#4 Identity](https://github.com/reasonreserve/portfolio/issues/4) | [#17](https://github.com/reasonreserve/portfolio/issues/17) [#18](https://github.com/reasonreserve/portfolio/issues/18) [#19](https://github.com/reasonreserve/portfolio/issues/19) |
+| [#5 Registry](https://github.com/reasonreserve/portfolio/issues/5) | [#20](https://github.com/reasonreserve/portfolio/issues/20) [#21](https://github.com/reasonreserve/portfolio/issues/21) [#22](https://github.com/reasonreserve/portfolio/issues/22) |
+| [#6 Interop](https://github.com/reasonreserve/portfolio/issues/6) | [#23](https://github.com/reasonreserve/portfolio/issues/23) [#24](https://github.com/reasonreserve/portfolio/issues/24) [#25](https://github.com/reasonreserve/portfolio/issues/25) |
+| [#7 MaRu pilot](https://github.com/reasonreserve/portfolio/issues/7) | [#26](https://github.com/reasonreserve/portfolio/issues/26) [#27](https://github.com/reasonreserve/portfolio/issues/27) [#28](https://github.com/reasonreserve/portfolio/issues/28) |
+
 ## Exec demo checklist
 
 1. Open **[Portfolio project](https://github.com/orgs/reasonreserve/projects/1)** — confirm **Start / Target** and status columns for `#1`–`#7`.
