@@ -5,9 +5,13 @@ permalink: /governance/org-project-import/
 
 This page supports adding **[#8](https://github.com/reasonreserve/portfolio/issues/8)–[#28](https://github.com/reasonreserve/portfolio/issues/28)** to the org project **[Portfolio](https://github.com/orgs/reasonreserve/projects/1)** and filling **Start** / **Target** (or your project’s date fields).
 
-## Why not automated here
+## API status
 
-The GitHub **Projects** GraphQL API requires token scopes such as **`read:project`** and **`project`** (or fine-grained permissions that include **Projects**). A default `repo`-scoped credential cannot read or update org project fields.
+Issues **#8–#28** were added to the Portfolio project with **Start date** / **Target date** set (same values as the table below), using a PAT with **`read:project`** / **`project`** scope.
+
+If **`git credential`** still stores an older token without Projects scope, local scripts may fail until you refresh the saved credential or set **`GITHUB_TOKEN`** to a PAT that includes Projects access.
+
+GraphQL: `addProjectV2ItemById` returns the new row on **`item { id }`** (not `projectV2Item`). Use **`updateProjectV2ItemFieldValue`** with `value: { date: "YYYY-MM-DD" }` for **Start date** / **Target date** fields.
 
 ## Option A — UI (fastest)
 
