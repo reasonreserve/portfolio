@@ -1,0 +1,9 @@
+# frozen_string_literal: true
+
+source "https://rubygems.org"
+
+# Match GitHub Pages — https://pages.github.com/versions/
+gem "github-pages", group: :jekyll_plugins
+
+# Ruby 3+ local server
+gem "webrick", "~> 1.8"

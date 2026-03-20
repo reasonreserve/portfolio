@@ -1,2 +1,7 @@
 # Local MCP secrets — use .cursor/mcp.json.example as template
 .cursor/mcp.json
+
+# Jekyll (local `bundle exec jekyll serve` in docs/)
+docs/_site/
+docs/.jekyll-cache/
+.sass-cache/

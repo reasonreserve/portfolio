@@ -1,0 +1,51 @@
+# Jekyll site for GitHub Pages (build from /docs on main).
+# Local preview: cd docs && bundle install && bundle exec jekyll serve
+# https://docs.github.com/pages/getting-started-with-github-pages/github-pages#jekyll
+
+title: Reason Reserve (Aruait)
+description: Public programme portfolio — strategy, roadmap, and technical orientation.
+theme: minima
+baseurl: "/portfolio"
+url: "https://reasonreserve.github.io"
+
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-relative-links
+  - jekyll-sitemap
+
+header_pages:
+  - index.md
+  - business/index.md
+  - technical/index.md
+  - legal/index.md
+  - governance/index.md
+
+markdown: kramdown
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: page
+
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock
+  - vendor/
+  - business/README.md
+  - technical/README.md
+  - business/strategy/README.md
+  - business/roadmap/README.md
+  - business/programme/README.md
+  - technical/architecture/README.md
+  - technical/adr/README.md
+  - technical/standards/README.md
+  - legal/README.md
+  - governance/README.md
+  - assets/README.md
+  - technical/adr/template.md

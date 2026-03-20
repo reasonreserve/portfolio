@@ -30,11 +30,32 @@ The GitHub org project **[Portfolio](https://github.com/orgs/reasonreserve/proje
 | Interoperability — MCP / A2A & standards | [#6](https://github.com/reasonreserve/portfolio/issues/6) |
 | MaRu pilot — MVP | [#7](https://github.com/reasonreserve/portfolio/issues/7) |
 
+## Repository layout
+
+| Path | Role |
+|------|------|
+| [`docs/`](docs/) | **Public narrative** for **GitHub Pages** (Jekyll): business, technical, **legal**, **governance**, plus `_config.yml` / `Gemfile`. |
+| [`sources/originals/`](sources/originals/) | Source uploads (e.g. ideekavand `.docx`); canonical summaries live in `docs/`. |
+| [`docs/assets/`](docs/assets/) | Images and diagrams for the published site (GitHub Pages serves from `docs/`). |
+
+Operational tracking stays in **issues** and the **[org project](https://github.com/orgs/reasonreserve/projects/1)**; the folders above are for **published, reviewable** content the PM and contributors maintain alongside epics.
+
 ## What goes here
 
 - Phase- or outcome-level **epics** (e.g. analysis & prototype, build, pilot).
+- **Markdown under `docs/`** for strategy, roadmap, architecture, and ADRs — readable on GitHub and on Pages.
 - Links to procurement, partners, and programme documents as needed.
 - References to execution issues in repos such as [`handbook`](https://github.com/reasonreserve/handbook) and future product repositories.
+
+## GitHub Pages (Jekyll)
+
+Enable **Settings → Pages → Build from `/docs` on `main`**. The site will be served at `https://reasonreserve.github.io/portfolio/`.
+
+Local preview:
+
+```bash
+cd docs && bundle install && bundle exec jekyll serve
+```
 
 ## Conventions
 
