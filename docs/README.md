@@ -14,7 +14,7 @@ This folder is the intended **root for [GitHub Pages](https://docs.github.com/pa
 | [`index.md`](index.md) | Everyone | Home page (Jekyll) |
 | [`_config.yml`](_config.yml) | — | Jekyll / GitHub Pages configuration |
 
-**Issues and the org project board** remain the operational backlog; this tree is the **readable, linkable narrative** that complements epics in GitHub.
+The **[Portfolio org project](https://github.com/orgs/reasonreserve/projects/1)** is the operational **roadmap** (dates, status); **issues** hold **scope**; this tree is the **readable, linkable narrative** — update it when the project or issues change.
 
 ## Conventions
 

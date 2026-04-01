@@ -9,7 +9,7 @@ Material for **stakeholders**: strategy, roadmaps, phase narratives, procurement
 | Folder | Contents |
 |--------|----------|
 | [`strategy/`](strategy/) | Vision, case for investment, positioning vs national digital policy |
-| [`roadmap/`](roadmap/) | Time horizons, milestones, dependencies (mirror or expand on the org project board) |
-| [`programme/`](programme/) | Phases I–III and outcome narratives aligned with portfolio issues |
+| [`roadmap/`](roadmap/) | Narrative timelines — **dates and status** stay canonical on the [Portfolio org project](https://github.com/orgs/reasonreserve/projects/1) |
+| [`programme/`](programme/) | Phases I–III and outcome narratives aligned with portfolio **issues** (`#1`–`#7`) |
 
-When adding a document, link the relevant **[portfolio issue](https://github.com/reasonreserve/portfolio/issues)** so PM work stays traceable.
+When adding a document, link the relevant **[portfolio issue](https://github.com/reasonreserve/portfolio/issues)** and, for timing, the **[org project](https://github.com/orgs/reasonreserve/projects/1)** so PM work stays traceable.

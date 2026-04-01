@@ -16,8 +16,8 @@ Welcome. This site publishes **programme-level** information for the **Reason Re
 
 ## Live planning in GitHub
 
-- **Epics and tracking** — [Portfolio repository issues](https://github.com/reasonreserve/portfolio/issues).
-- **Roadmap views** — [Org project: Portfolio](https://github.com/orgs/reasonreserve/projects/1).
+- **Roadmap (dates & status)** — [Org project: Portfolio](https://github.com/orgs/reasonreserve/projects/1) is the source of truth for schedule and board status.
+- **Backlog (scope & discussion)** — [Portfolio repository issues](https://github.com/reasonreserve/portfolio/issues) (`#1`–`#7` epics, `#8`–`#28` work packages).
 
 ## Related
 
