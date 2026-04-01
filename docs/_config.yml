@@ -57,3 +57,5 @@ exclude:
   - governance/README.md
   - assets/README.md
   - technical/adr/template.md
+  # TypeScript workshop sketch — keep in git for review; do not serve as a static URL on Pages
+  - technical/architecture/02-core-interfaces.ts
