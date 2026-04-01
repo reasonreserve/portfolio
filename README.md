@@ -4,12 +4,12 @@ This repository is the **home for programme-level issues** for **[Reason Reserve
 
 ## Org project board
 
-The GitHub org project **[Portfolio](https://github.com/orgs/reasonreserve/projects/1)** is the stakeholder-facing **table / board / roadmap** view across repositories. **Issues live here** (`reasonreserve/portfolio`); the **project** adds status, dates, and filtered views without replacing this repo as the source of truth.
+The GitHub org project **[Portfolio](https://github.com/orgs/reasonreserve/projects/1)** is the **source of truth for the roadmap**: **status**, **Start / Target** (or equivalent date fields), and board layout. **`reasonreserve/portfolio` issues** are the **source of truth for scope**: titles, bodies, acceptance criteria, comments, and links. If a date in `docs/` or an issue body disagrees with the project, **update the project first**, then align the doc or issue text.
 
 | Surface | Role |
 |--------|------|
-| **`reasonreserve/portfolio`** (this repo) | Epic issues, descriptions, comments, sub-issues, cross-repo links |
-| **[Portfolio](https://github.com/orgs/reasonreserve/projects/1)** (org project) | Planning views, fields, roadmap layout for executives and partners |
+| **[Portfolio](https://github.com/orgs/reasonreserve/projects/1)** (org project) | **Canonical** schedule and status for exec and partner views |
+| **`reasonreserve/portfolio`** (this repo) | **Canonical** written backlog: epics `#1`–`#7`, work packages `#8`–`#28`, discussion, cross-repo links |
 
 ## Programme backlog (live)
 
@@ -38,7 +38,7 @@ The GitHub org project **[Portfolio](https://github.com/orgs/reasonreserve/proje
 | [`sources/originals/`](sources/originals/) | Source uploads (e.g. ideekavand `.docx`); canonical summaries live in `docs/`. |
 | [`docs/assets/`](docs/assets/) | Images and diagrams for the published site (GitHub Pages serves from `docs/`). |
 
-Operational tracking stays in **issues** and the **[org project](https://github.com/orgs/reasonreserve/projects/1)**; the folders above are for **published, reviewable** content the PM and contributors maintain alongside epics.
+Operational tracking stays in the **[org project](https://github.com/orgs/reasonreserve/projects/1)** (roadmap) and **issues** (scope); `docs/` is the **public narrative** — keep it consistent with the project when dates or phase messaging change.
 
 ## What goes here
 

@@ -1,4 +1,4 @@
-# Local MCP secrets — use .cursor/mcp.json.example as template
+# Local Cursor MCP secrets (if you use project-level `.cursor/mcp.json`)
 .cursor/mcp.json
 
 # Jekyll (local `bundle exec jekyll serve` in docs/)
