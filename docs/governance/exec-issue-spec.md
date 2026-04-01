@@ -5,13 +5,23 @@ permalink: /governance/exec-issue-spec/
 
 This document aligns **GitHub issues** in [`reasonreserve/portfolio`](https://github.com/reasonreserve/portfolio) with **milestones** and the **[Portfolio org project](https://github.com/orgs/reasonreserve/projects/1)** so RIA leadership can show a consistent **dashboard** (issues + dates + status).
 
+## Source of truth
+
+| Layer | Authoritative for |
+|--------|-------------------|
+| **[Portfolio org project](https://github.com/orgs/reasonreserve/projects/1)** | **Schedule and status** — Start / Target, column/status, exec-facing roadmap |
+| **Issues** (`#1`–`#28`) | **Scope and delivery** — descriptions, measures of done, sub-issue links, discussion |
+| **This site (`docs/`)** | **Narrative** for stakeholders — must be **reconciled** with the project when dates or labels change; it does not override project fields |
+
+If documentation or an issue body conflicts with the org project, treat the **project** as correct for **when** work sits and **how** it is classified on the board; fix the doc or issue text in a follow-up.
+
 ## Surfaces
 
 | Surface | Role |
 |--------|------|
 | **Issues** (`#1`–`#7`) | Epics: phases **I–III** and **four outcomes** — detailed scope and measures of done |
-| **Milestones** (repo) | Timeboxed **phase windows** (M1–M6, M7–M16, M17–M24) — use for filters and burndown-style views |
-| **Org project** | **Start / Target**, status, and partner-facing roadmap layout |
+| **Milestones** (repo) | Timeboxed **phase windows** (M1–M6, M7–M16, M17–M24) — use for filters and burndown-style views; keep **due dates** aligned with the programme calendar and with **phase epics** on the org project |
+| **Org project** | **Start / Target**, status, and partner-facing roadmap layout — **canonical** for those fields |
 
 **Programme calendar** (24 months from official start):
 
@@ -28,7 +38,7 @@ This document aligns **GitHub issues** in [`reasonreserve/portfolio`](https://gi
 | Phase II — M7–M16 | 2026-10-01 — 2027-07-31 | 2027-07-31 | [#2](https://github.com/reasonreserve/portfolio/issues/2) |
 | Phase III — M17–M24 | 2027-08-01 — 2028-03-31 | 2028-03-31 | [#3](https://github.com/reasonreserve/portfolio/issues/3) |
 
-**Outcome issues** ([#4](https://github.com/reasonreserve/portfolio/issues/4)–[#7](https://github.com/reasonreserve/portfolio/issues/7)) often **span phases**. Prefer the **org project** for target dates and dependencies; assign a milestone when an outcome is **primarily** delivered in one phase, or leave milestone empty and rely on project fields.
+**Outcome issues** ([#4](https://github.com/reasonreserve/portfolio/issues/4)–[#7](https://github.com/reasonreserve/portfolio/issues/7)) often **span phases**. Use the **org project** for **target dates and dependencies** (authoritative); assign a milestone when an outcome is **primarily** delivered in one phase, or leave milestone empty and rely on project fields.
 
 **Labels** (recommended — create in the repo):
 

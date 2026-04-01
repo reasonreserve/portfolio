@@ -5,6 +5,8 @@ permalink: /governance/org-project-import/
 
 This page supports adding **[#8](https://github.com/reasonreserve/portfolio/issues/8)–[#28](https://github.com/reasonreserve/portfolio/issues/28)** to the org project **[Portfolio](https://github.com/orgs/reasonreserve/projects/1)** and filling **Start** / **Target** (or your project’s date fields).
 
+**After items live on the board, the org project is the source of truth** for those dates and for status columns. The table below is a **one-time import / reset aid** and suggested defaults — if it disagrees with what is set on [Portfolio](https://github.com/orgs/reasonreserve/projects/1), **keep the project** and update this doc (or the issue bodies) to match.
+
 ## API status
 
 Issues **#8–#28** were added to the Portfolio project with **Start date** / **Target date** set (same values as the table below), using a PAT with **`read:project`** / **`project`** scope.

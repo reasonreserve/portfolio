@@ -7,7 +7,7 @@ Steering, reporting, risk, and assurance for the Aruait programme — written fo
 
 | Document | Purpose |
 |----------|---------|
-| [Exec issue & dashboard spec](exec-issue-spec.md) | How portfolio **issues**, **milestones**, and the **org project** line up for executive reviews |
-| [Org project import](org-project-import.md) | Add **`#8`–`#28`** to the Portfolio project and set **Start / Target** (UI or `gh`) |
+| [Exec issue & dashboard spec](exec-issue-spec.md) | How **issues**, **milestones**, and the **org project** line up; org project is source of truth for roadmap fields |
+| [Org project import](org-project-import.md) | Bulk-add **`#8`–`#28`** and suggested **Start / Target**; after import, trust the [Portfolio](https://github.com/orgs/reasonreserve/projects/1) board over this table if they differ |
 
 *Add governance markdown here as processes stabilise.*
