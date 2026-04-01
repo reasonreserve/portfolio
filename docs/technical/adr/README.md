@@ -7,4 +7,6 @@ Use one file per decision, e.g. `0001-use-mcp-for-tooling.md`. Copy **[template.
 3. **Decision** — What we chose  
 4. **Consequences** — Trade-offs and follow-ups  
 
-*No ADRs yet.*
+## Current ADRs
+
+- [`0001-agentic-state-trust-model.md`](0001-agentic-state-trust-model.md) — initial trust model for machine delegation, revocation, human oversight, and auditability.
